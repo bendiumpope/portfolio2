@@ -1,0 +1,27 @@
+.profile-image{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    }
+    .profile-image img{
+        object-fit: cover;
+        border-radius: 2rem;
+    }
+    .profile-image img:hover{
+    transform: scale(1.2);
+    transition: 2s;
+    }
+.foot{
+    height:70px;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+.foot {
+      height:40px;
+        }
+  }
+  @media only screen and (min-width: 961px) {
+    .foot {
+      height: 40px;
+    } 
+  }
